@@ -233,11 +233,11 @@ a {
 }
 
 .fade-slider__item--shirts {
-    background: url("../img/content/hero/slider_pic_1.png") center center/contain no-repeat;
+    background: url("../../img/content/hero/slider_pic_1.png") center center/contain no-repeat;
 }
 
 .fade-slider__item--games {
-    background: url("../img/content/hero/slider_pic_2.png") center center/contain no-repeat;
+    background: url("../../img/content/hero/slider_pic_2.png") center center/contain no-repeat;
 }
 
 .fade-slider__item--shirts .fade-slider--text {
