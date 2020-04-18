@@ -50,7 +50,7 @@ a {
 .hero {
     height: 100vh;
     min-height: 650px;
-    background-image: url('/img/bg/hero.jpg');
+    background-image: url('img/bg/hero.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -488,17 +488,17 @@ a {
     min-height: 470px;
     overflow: hidden;
     margin-right: 30px;
-    background: url(/img/bg/pattern.png) center center/cover no-repeat;
+    background: url(img/bg/pattern.png) center center/cover no-repeat;
     display: flex;
     position: relative;
 }
 
 .collection__item--gender--male:before {
-    background-image: url(/img/collections/collection_man.png);
+    background-image: url(img/collections/collection_man.png);
 }
 
 .collection__item--gender--female:before {
-    background-image: url(/img/collections/collection_woman.png);
+    background-image: url(img/collections/collection_woman.png);
     top: -30%;
     left: -13%;
 }
@@ -618,7 +618,7 @@ a {
 .extras__col-socials {
     width: 100%;
     height: 100%;
-    background: url('/img/bg/pattern.png') center center /500px;
+    background: url('img/bg/pattern.png') center center /500px;
     display: flex;
     justify-content: center;
     align-items: center;
