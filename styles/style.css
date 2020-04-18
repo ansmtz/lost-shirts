@@ -494,11 +494,11 @@ a {
 }
 
 .collection__item--gender--male:before {
-    background-image: url(img/collections/collection_man.png);
+    background-image: url('../img/collections/collection_man.png');
 }
 
 .collection__item--gender--female:before {
-    background-image: url(img/collections/collection_woman.png);
+    background-image: url('../img/collections/collection_woman.png');
     top: -30%;
     left: -13%;
 }
