@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lost Shirts | Main Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=cyrillic,cyrillic-ext"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+
+  <body>
+    <!-- Смысловые блоки, которые содержат множество мелких - section -->
+    <div class="wrapper">
+      <section class="hero">
+        <header class="header">
+          <a href="#" class="logo">
+            <img
+              src="/img/content/logos/logo-main.png"
+              class="logo__pic"
+              alt="Logotype Lost Shirts"
+            />
+          </a>
+          <a href="mailto:lostinspace@mail.ru" class="mail">
+            <div class="mail__title">По всем вопросам пишите на:</div>
+            <div class="mail__content">lostinspace@mail.ru</div>
+          </a>
+        </header>
+        <div class="hero__content">
+          <ul class="fade-slider">
+            <li class="fade-slider__item fade-slider__item--shirts fade-slider__item--visible ">
+              <div class="fade-slider--text">
+                <h1 class="lined-text">
+                  <div class="lined-text__word">Три</div>
+                  <div class="lined-text__word">Футболки</div>
+                  <div class="lined-text__word lined-text__word--colored">
+                    По цене
+                  </div>
+                  <div class="lined-text__word lined-text__word--colored">
+                    двух
+                  </div>
+                </h1>
+              </div>
+            </li>
+            <li class="fade-slider__item fade-slider__item--games">
+              <div class="fade-slider--text">
+                <h1 class="lined-text">
+                  <div class="lined-text__word">Любимые игры</div>
+
+                  <div class="lined-text__word lined-text__word--colored">
+                    на лучших
+                  </div>
+                  <div class="lined-text__word lined-text__word--colored">
+                    футболках
+                  </div>
+                </h1>
+              </div>
+            </li>
+            <li class="fade-slider__item fade-slider__item--gifts">
+              <div class="fade-slider--text">
+                <h1 class="lined-text">
+                  <div class="lined-text__word">подарки</div>
+                  <div class="lined-text__word lined-text__word--colored">
+                    для любимых
+                  </div>
+                </h1>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <aside class="side-bar closed">
+          <div class="side-bar__open">
+            <a href="#" class="open">
+              <svg class="side-bar__open-icon">
+                <use xlink:href="./img/icons-sprite.svg#bars"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="side-bar__header">
+            <a href="#" class="logo">
+              <img src="./img/content/logos/logo-main.png" alt="" class="logo__image">
+            </a>
+            <a href="#" class="side-bar__close">
+              <svg class="side-bar__close-icon">
+                <use xlink:href="./img/icons-sprite.svg#cross"></use>
+              </svg>
+            </a>
+          </div>
+          <nav class="side-menu">
+            <ul class="side-menu__items">
+              <li class="side-menu__item"><a href="#" class="side-menu__link">Детская коллекция</a></li>
+              <li class="side-menu__item"><a href="#" class="side-menu__link">Мужская коллекция</a></li>
+              <li class="side-menu__item"><a href="#" class="side-menu__link">Женская коллекция</a></li>
+              <li class="side-menu__item"><a href="#" class="side-menu__link">Популярные принты</a></li>
+              <li class="side-menu__item"><a href="#" class="side-menu__link">Новые принты</a></li>
+              <li class="side-menu__item"><a href="#" class="side-menu__link">Специальные предложения</a></li>
+              <li class="side-menu__item"><a href="#" class="side-menu__link">Скоро в продаже</a></li>
+            </ul>
+          </nav>
+        </aside>
+      </section>
+
+      <div class="products">
+        <div class="container">
+        <ul class="filter">
+          <li class="filter__item filter__item--active">
+            <a href="#" data-filter="popular" class="filter__link">
+              Популярное
+            </a>
+          </li>
+          <li class="filter__item">
+            <a href="#" data-filter="new" class="filter__link">
+              Новинки
+            </a>
+          </li>
+          <li class="filter__item">
+            <a href="#" data-filter="bestsellers" class="filter__link">
+              Бестселлеры
+            </a>
+          </li>
+          <li class="filter__item">
+            <a href="#" data-filter="special" class="filter__link">
+              Специальные предложения
+            </a>
+          </li>
+          <li class="filter__item">
+            <a href="#" data-filter="soon" class="filter__link">
+              Скоро в продаже
+            </a>
+          </li>
+        </ul>
+        <ul class="products__list">
+          <li class="product__item popular special">
+            <div class="product__price"><div class="product__amount">1 800</div></div>
+            <div class="products__content">
+              <img src="./img/tshirts/tshirt_01.png" alt="bo jack t-shirt" class="product__image">
+              <div class="product__description">
+                <div class="product__text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing.
+                </div>
+                <a href="#" class="btn">Подробнее</a>
+              </div>
+            </div>
+          </li>
+          <li class="product__item popular bestsellers">
+            <div class="product__price"><div class="product__amount">1 800</div></div>
+            <div class="products__content">
+              <img src="./img/tshirts/tshirt_02.png" alt="bo jack t-shirt" class="product__image">
+              <div class="product__description">
+                <div class="product__text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing.
+                </div>
+                <a href="#" class="btn">Подробнее</a>
+              </div>
+            </div>
+          </li>
+          <li class="product__item new popular soon product__item--color-black product__item--size-double">
+            <div class="product__price"><div class="product__amount">1 800</div></div>
+            <div class="products__content">
+              <img src="./img/tshirts/tshirt_03.png" alt="bo jack t-shirt" class="product__image">
+              <div class="product__description">
+                <div class="product__text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing.
+                </div>
+                <a href="#" class="btn">Подробнее</a>
+              </div>
+            </div>
+          </li>
+          <li class="product__item new popular product__item--color-black product__item--size-double">
+            <div class="product__price"><div class="product__amount">1 800</div></div>
+            <div class="products__content">
+              <img src="./img/tshirts/tshirt_04.png" alt="bo jack t-shirt" class="product__image">
+              <div class="product__description">
+                <div class="product__text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing.
+                </div>
+                <a href="#" class="btn">Подробнее</a>
+              </div>
+            </div>
+          </li>
+          <li class="product__item popular new">
+            <div class="product__price"><div class="product__amount">1 800</div></div>
+            <div class="products__content">
+              <img src="./img/tshirts/tshirt_05.png" alt="bo jack t-shirt" class="product__image">
+              <div class="product__description">
+                <div class="product__text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing.
+                </div>
+                <a href="#" class="btn">Подробнее</a>
+              </div>
+            </div>
+          </li>
+          <li class="product__item popular new soon">
+            <div class="product__price"><div class="product__amount">1 800</div></div>
+            <div class="products__content">
+              <img src="./img/tshirts/tshirt_06.png" alt="bo jack t-shirt" class="product__image">
+              <div class="product__description">
+                <div class="product__text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing.
+                </div>
+                <a href="#" class="btn">Подробнее</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+        </div>
+      </section>
+    </div>
+    <section class="collection">
+        <div class="container">
+          <ul class="collection__list">
+            <li class="collection__item collection__item--gender--male">
+              <a href="#" class="collection__link">
+                <h2 class="collection__title">Мужская коллекция</h2>
+                <div class="collection__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                <div class="btn">Посмотреть</div>
+              </a>
+            </li>
+            <li class="collection__item collection__item--gender--female">
+              <a href="#" class="collection__link">
+                <h2 class="collection__title">Женская коллекция</h2>
+                <div class="collection__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                <div class="btn">Посмотреть</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+    </section>
+    <footer class="footer">
+      <div class="container footer__container">
+        <nav class="site-menu">
+          <ul class="site-menu__sections">
+            <li class="site-menu__col">
+              <h3 class="site-menu__title">Информация</h3>
+              <ul class="site-menu__list">
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">О магазине</a></li>
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">Адреса магазинов</a></li>
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">Как сделать заказ?</a></li>
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">Обмен и возврат</a></li>
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">Отзывы</a></li>
+              </ul>
+            </li>
+
+            <li class="site-menu__col">
+              <h3 class="site-menu__title">Футболки</h3>
+              <ul class="site-menu__list">
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">Популярное</a></li>
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">Новиники</a></li>
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">Бестселлеры</a></li>
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">Специальные предложения</a></li>
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">Скоро в продаже</a></li>
+              </ul>
+            </li>
+
+            <li class="site-menu__col">
+              <h3 class="site-menu__title">Коллекции</h3>
+              <ul class="site-menu__list">
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">Детская коллекция</a></li>
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">Мужская коллекция</a></li>
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">Женская коллекция</a></li>
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">Лучшие принты 2019 года</a></li>
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">Лучште принты 2018 года</a></li>
+              </ul>
+            </li>
+
+            <li class="site-menu__col">
+              <h3 class="site-menu__title">Контактная информация</h3>
+              <ul class="site-menu__list">
+                  <li class="site-menu__item"><a href="#" class="site-menu__item-link">Санкт-Петербург,<br> ул. Жуковского, д12</a></li>
+                  <li class="site-menu__item"><a href="tel.:+79121234567" class="site-menu__item-link">Телефон: 8(912)123-45-67</a></li>
+                  <li class="site-menu__item"><a href="mailto:support@lostinspace.ru" class="site-menu__item-link">Email: support@lostinspace.ru</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      <section class="extras">
+        <div class="extras__col">
+          <a href="#" class="extras__best">
+            Лучшие принты <br>
+            2019 года
+          </a>
+        </div>
+        <div class="extras__col">
+          <div class="extras__col-socials">
+            <ul class="socials">
+              <li class="social__icons">
+                <a href="" class="social__link">
+                  <svg class="social__icon">
+                    <use xlink:href="./img/icons-sprite.svg#fb"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__icons">
+                <a href="" class="social__link">
+                  <svg class="social__icon">
+                    <use xlink:href="./img/icons-sprite.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__icons">
+                <a href="" class="social__link">
+                  <svg class="social__icon">
+                    <use xlink:href="./img/icons-sprite.svg#insta"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__icons">
+                <a href="" class="social__link">
+                  <svg class="social__icon">
+                    <use xlink:href="./img/icons-sprite.svg#pin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="/scripts/filter.js"></script>
+</html>
