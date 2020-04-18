@@ -15,6 +15,10 @@
     --grey: #737373;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 html,
 body {
     height: 100%;
@@ -344,8 +348,7 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* margin-left: -27px; */
-}
+    margin-left: -27px;}
 
 .product__item {
     height: 386px;
